@@ -1,0 +1,275 @@
+{
+  "users": [
+    {
+      "id": "usr_admin302",
+      "numericId": "302",
+      "username": "legend302",
+      "email": "admin@mrlegend302.pk",
+      "firstName": "MR Legend 302",
+      "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300&auto=format&fit=crop&q=80",
+      "role": "admin",
+      "membership": "lifetime",
+      "membershipExpiresAt": null,
+      "isSuspended": false,
+      "isBlocked": false,
+      "online": true,
+      "lastSeen": "2026-10-29T12:17:55.829Z",
+      "createdAt": "2026-10-29T12:17:55.829Z",
+      "salt": "212d9d69db9e579030c59236c60f7685",
+      "passwordHash": "7b7925820234c4a82bcf14dde5236bbeec178096fc81bb9ffa91ada2a9e1284cdf31fd921f30f6d10e9142666d4d672ebfc3bc7749e9fd0e276501000d31687f"
+    },
+    {
+      "id": "usr_vip2002",
+      "numericId": "2002",
+      "username": "vip_ali",
+      "email": "ali@mrlegend302.pk",
+      "firstName": "Ali Khan",
+      "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
+      "role": "user",
+      "membership": "monthly",
+      "membershipExpiresAt": "2026-11-26T12:17:55.903Z",
+      "isSuspended": false,
+      "isBlocked": false,
+      "online": true,
+      "lastSeen": "2026-10-29T12:17:55.903Z",
+      "createdAt": "2026-10-29T12:17:55.903Z",
+      "salt": "131fa529861fdd91668c07d7a444a119",
+      "passwordHash": "6dc24d4984f9e6dd3b72838aa520e20b9e8eede3ee7b4928cb55d3b8c365b24c4517f50951d434deb25711c5e1f3d38f800bdabda9c3dd054faeec95f9a3f44b"
+    },
+    {
+      "id": "usr_sara3003",
+      "numericId": "3003",
+      "username": "sara_tech",
+      "email": "sara@example.com",
+      "firstName": "Sara Ahmed",
+      "avatarUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=300&auto=format&fit=crop&q=80",
+      "role": "user",
+      "membership": "free",
+      "membershipExpiresAt": null,
+      "isSuspended": false,
+      "isBlocked": false,
+      "online": false,
+      "lastSeen": "2026-10-29T11:17:55.963Z",
+      "createdAt": "2026-10-29T12:17:55.963Z",
+      "salt": "82ee668706cda5bbb0c9f0955617d810",
+      "passwordHash": "1d8d925b14c7b6ffd330c2d9697d1cd69cca76964f64b75365d619e68f8aa395e48d5968f6d5d61b606a20e4d1cbe97cb9244c5936aafd6dd4616ca23f291335"
+    },
+    {
+      "id": "usr_1793276424170_abibn",
+      "numericId": "777302",
+      "username": "zayn302",
+      "email": "zayn@mrlegend.pk",
+      "firstName": "Zayn Malik",
+      "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300&auto=format&fit=crop&q=80",
+      "role": "user",
+      "membership": "monthly",
+      "membershipExpiresAt": "2026-11-28T12:22:48.461Z",
+      "isSuspended": false,
+      "isBlocked": false,
+      "online": true,
+      "lastSeen": "2026-10-29T12:23:15.197Z",
+      "createdAt": "2026-10-29T12:20:24.170Z",
+      "salt": "ffcac6d20f1a0333796c174271675b4b",
+      "passwordHash": "849a97d020795bbd523f195249b586762084c1eeff6a6bbc5777b0e7698c6b5ebd1e94b371dba4c01d69d53321a07c19dc3cb5bc6607dd37be5cad1425d0e526"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_admin_vip",
+      "participantIds": [
+        "usr_admin302",
+        "usr_vip2002"
+      ],
+      "updatedAt": "2026-10-29T12:17:56.009Z",
+      "lastMessage": {
+        "id": "msg_welcome_init",
+        "conversationId": "conv_admin_vip",
+        "senderId": "usr_admin302",
+        "text": "Welcome to MR LEGEND 302! Your VIP membership is fully verified.",
+        "createdAt": "2026-10-29T12:17:56.009Z",
+        "read": true
+      }
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg_welcome_init",
+      "conversationId": "conv_admin_vip",
+      "senderId": "usr_admin302",
+      "text": "Welcome to MR LEGEND 302! Your VIP membership is fully verified.",
+      "createdAt": "2026-10-29T12:17:56.009Z",
+      "read": true
+    }
+  ],
+  "groups": [
+    {
+      "id": "grp_legend_vip",
+      "name": "MR LEGEND 302 VIP Lounge",
+      "description": "Exclusive community for elite members of MR Legend 302 with live audio rooms and priority updates.",
+      "avatarUrl": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=300&auto=format&fit=crop&q=80",
+      "ownerId": "usr_admin302",
+      "memberIds": [
+        "usr_admin302",
+        "usr_vip2002"
+      ],
+      "pendingRequestIds": [
+        "usr_sara3003"
+      ],
+      "audioStreamActive": false,
+      "audioSourceUrl": "",
+      "createdAt": "2026-10-29T12:17:56.009Z"
+    }
+  ],
+  "statuses": [
+    {
+      "id": "stat_admin_1",
+      "userId": "usr_admin302",
+      "type": "text",
+      "content": "Official Launch of MR LEGEND 302: The Ultimate Luxury Communication & Social Platform ✨",
+      "bgColor": "from-purple-900 to-indigo-950",
+      "createdAt": "2026-10-29T12:17:56.009Z",
+      "expiresAt": "2026-10-30T12:17:56.009Z",
+      "viewerIds": [
+        "usr_vip2002"
+      ]
+    }
+  ],
+  "activationKeys": [
+    {
+      "id": "key_welcome_1",
+      "key": "MRL-302-GOLD-LUCK",
+      "plan": "monthly",
+      "targetEmail": "newuser@mrlegend302.pk",
+      "status": "unused",
+      "createdBy": "usr_admin302",
+      "createdAt": "2026-10-29T12:17:56.009Z"
+    },
+    {
+      "id": "key_lifetime_1",
+      "key": "MRL-302-LIFE-VIP1",
+      "plan": "lifetime",
+      "targetEmail": "",
+      "status": "unused",
+      "createdBy": "usr_admin302",
+      "createdAt": "2026-10-29T12:17:56.009Z"
+    },
+    {
+      "id": "key_1793276531693_bj6x",
+      "key": "MRL-302-E84A-B0BD-D2EC",
+      "plan": "monthly",
+      "targetEmail": "",
+      "status": "activated",
+      "createdBy": "ADMIN",
+      "createdAt": "2026-10-29T12:22:11.693Z",
+      "activatedBy": "usr_1793276424170_abibn",
+      "activatedAt": "2026-10-29T12:22:48.461Z"
+    }
+  ],
+  "adminSettings": {
+    "monthlyPricePKR": 500,
+    "lifetimePricePKR": 2500,
+    "freeDailyMessages": 10,
+    "freeCallDurationSeconds": 60,
+    "freeDailyDownloads": 2,
+    "freeDailyStatus": 1,
+    "welcomeUrduVoice": true,
+    "audioBroadcastActive": false,
+    "broadcastSourceUrl": "",
+    "broadcastTitle": "MR Legend 302 Royal Broadcast"
+  },
+  "notifications": [
+    {
+      "id": "notif_1793276568461_2102",
+      "userId": "usr_1793276424170_abibn",
+      "title": "Welcome to MR Legend 302 Premium Version!",
+      "message": "Your account has been upgraded to Monthly Premium! Enjoy unlimited messages, calling, and exclusive privileges.",
+      "type": "premium",
+      "read": false,
+      "createdAt": "2026-10-29T12:22:48.461Z"
+    },
+    {
+      "id": "notif_init_1",
+      "userId": "usr_vip2002",
+      "title": "Welcome to VIP Tier",
+      "message": "Your Monthly Premium status is active. Enjoy unlimited messaging and high quality downloads!",
+      "type": "premium",
+      "read": false,
+      "createdAt": "2026-10-29T12:17:56.009Z"
+    }
+  ],
+  "usage": {
+    "usr_1793276424170_abibn_2026-10-29": {
+      "messagesCount": 0,
+      "callsSecondsUsed": 0,
+      "downloadsCount": 0,
+      "statusCount": 0,
+      "lastResetDate": "2026-10-29"
+    }
+  },
+  "sessions": {
+    "dfd85553fb05e0272ea47908f59971e1109260daff7a53bd0faf06708fe55a32": {
+      "userId": "usr_1793276424170_abibn",
+      "createdAt": 1793276424171
+    },
+    "5b715af786213d78ee124f8d7c38fd11d1af9eb9ed1b0a45a8c70b52adb1ff46": {
+      "userId": "usr_1793276424170_abibn",
+      "createdAt": 1793276558805
+    },
+    "96562f62ebe8519bd61d676bcb8c44998afbf6feb06156cfae2b832a79d5ee06": {
+      "userId": "usr_1793276424170_abibn",
+      "createdAt": 1793276595197
+    }
+  },
+  "adminSessions": {
+    "fae2ea2d34ae2e0a2810100aef9c7c92969c839a9bd8466051c5787a8fdac9ce": {
+      "createdAt": 1793276479859
+    },
+    "a79afafc892386a724782dcbfe637da9c47c5a6e06c891702a30008f4696d27a": {
+      "createdAt": 1793276525055
+    }
+  },
+  "auditLogs": [
+    {
+      "id": "log_1793276568461_7f9d",
+      "action": "KEY_ACTIVATED",
+      "details": "Key MRL-302-E84A-B0BD-D2EC activated by user @zayn302 (zayn@mrlegend.pk) for monthly",
+      "performedBy": "usr_1793276424170_abibn",
+      "timestamp": "2026-10-29T12:22:48.461Z"
+    },
+    {
+      "id": "log_1793276531693_nba2",
+      "action": "KEY_GENERATED",
+      "details": "Key created: MRL-302-E84A-B0BD-D2EC (monthly) for any",
+      "performedBy": "ADMIN",
+      "timestamp": "2026-10-29T12:22:11.693Z"
+    },
+    {
+      "id": "log_1793276525055_tdge",
+      "action": "ADMIN_LOGIN",
+      "details": "Administrator access granted",
+      "performedBy": "ADMIN",
+      "timestamp": "2026-10-29T12:22:05.055Z"
+    },
+    {
+      "id": "log_1793276479860_snm9",
+      "action": "ADMIN_LOGIN",
+      "details": "Administrator access granted",
+      "performedBy": "ADMIN",
+      "timestamp": "2026-10-29T12:21:19.860Z"
+    },
+    {
+      "id": "log_1793276424170_533y",
+      "action": "USER_REGISTERED",
+      "details": "User registered: @zayn302 (ID: 777302)",
+      "performedBy": "usr_1793276424170_abibn",
+      "timestamp": "2026-10-29T12:20:24.170Z"
+    },
+    {
+      "id": "log_init",
+      "action": "SYSTEM_STARTUP",
+      "details": "MR LEGEND 302 platform initialized with secure database and pre-configured luxury services.",
+      "performedBy": "SYSTEM",
+      "timestamp": "2026-10-29T12:17:56.009Z"
+    }
+  ]
+}

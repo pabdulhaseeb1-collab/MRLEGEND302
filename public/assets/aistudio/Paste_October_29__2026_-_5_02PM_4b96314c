@@ -1,0 +1,866 @@
+MR LEGEND 302 — COMPLETE FULL-STACK WEBSITE MASTER PROMPT
+
+1. YOUR ROLE AND MAIN OBJECTIVE
+
+Act as an expert full-stack software engineer, UI/UX designer, backend architect, database engineer, cybersecurity specialist, animation designer, and mobile web developer.
+
+Build a complete, professional, luxury-quality, production-oriented communication and social platform named MR LEGEND 302.
+
+IMPORTANT: Do not create only a static design, landing page, or frontend demo. Build a complete working application with real authentication, database integration, secure backend APIs, persistent user accounts, real-time messaging, file uploads, premium subscriptions, administrative controls, and responsive mobile layouts.
+
+If any external service requires API credentials, create the necessary integration structure and clearly identify the required environment variables. Never pretend that an integration works if it has not been configured.
+
+The website creator/brand is:
+
+MR Legend 302
+
+Footer branding:
+“This website created on MR Legend 302”
+
+WhatsApp contact:
+03288516325
+
+Primary currency: PKR (Pakistani Rupees).
+
+2. LUXURY DESIGN AND VISUAL EXPERIENCE
+
+Create a stunning, futuristic, premium interface with exceptionally high-quality graphics.
+
+Design style:
+
+* Deep black and midnight-purple backgrounds.
+* Neon purple, electric blue, subtle gold, and silver accents.
+* Glassmorphism cards, elegant gradients, glowing borders, and realistic depth.
+* Premium typography and professional icons.
+* Smooth transitions, animated backgrounds, floating particles, and subtle light effects.
+* Beautiful profile cards, modern chat bubbles, elegant navigation, and polished buttons.
+* Loading animations, skeleton screens, animated notifications, modal transitions, and page transitions.
+* Responsive layouts optimized for iPhone, Android, tablets, laptops, and desktop screens.
+* Support mobile safe areas, notches, scrolling, touch gestures, and virtual keyboards.
+* Add a light/dark theme option if practical, with dark luxury mode as the default.
+* Use original or properly licensed assets and icons.
+
+Make the experience look like a high-end commercial product, not a basic template.
+
+Animations must be smooth and optimized. Respect reduced-motion preferences and provide controls to mute sounds. Avoid excessive effects that make the website slow.
+
+3. WELCOME SCREEN AND INTRODUCTION
+
+When a visitor opens the website, show an animated welcome screen displaying:
+
+WELCOME TO MR LEGEND 302 WEBSITE
+
+Play a welcoming voice message:
+
+“Welcome to MR Legend 302 Website.”
+
+The number 302 should be pronounced in Urdu as:
+
+“تین سو دو”
+
+Use a high-quality text-to-speech voice or a properly generated audio file. Provide a sound-enable button because browsers, especially iPhones, may block automatic sound until the user interacts with the page.
+
+After the intro, smoothly transition to the login and account creation screen.
+
+Include:
+
+* Animated MR LEGEND 302 logo.
+* Elegant loading animation.
+* Enter ID Here field.
+* Create Account button.
+* Login button.
+* Forgot Password option.
+* Sound on/off control.
+
+4. ACCOUNT CREATION AND AUTHENTICATION
+
+Build a fully functional registration system.
+
+Required registration fields:
+
+1. First name.
+2. Profile picture.
+3. Unique numeric user ID chosen by the user.
+4. Username.
+5. Email address — required.
+6. Password.
+7. Confirm password.
+
+Requirements:
+
+* Validate every required field.
+* Numeric IDs must contain numbers only and be unique.
+* Usernames must be unique.
+* Validate email format.
+* Enforce reasonable password security.
+* Show clear validation errors.
+* Allow profile picture uploads with file-type and file-size validation.
+* Hash passwords securely using the authentication provider.
+* Never store plaintext passwords.
+* Save user profiles in the database.
+* Prevent duplicate accounts where prohibited.
+* Include password visibility controls.
+* Show registration success and error animations.
+
+Login must support:
+
+* Numeric user ID or username.
+* Password.
+* Login button.
+* Forgot Password.
+* Secure logout.
+* Persistent login sessions where appropriate.
+
+If the user enters an incorrect username or ID, display:
+
+“User ID or username not found.”
+
+Play a short, appropriate error voice or sound.
+
+If the username exists but the password is incorrect, display:
+
+“Incorrect password. Please try again.”
+
+Play a different error sound.
+
+Do not reveal sensitive account information through error messages or public APIs.
+
+5. FORGOT PASSWORD AND WHATSAPP SUPPORT
+
+Create a Forgot Password feature.
+
+When the user selects Forgot Password, provide a secure password-recovery process. Do not reveal or send the existing password because passwords must never be stored in readable form.
+
+Provide a WhatsApp support button that opens:
+
+https://wa.me/923288516325
+
+Prefill this message:
+
+“Assalam-o-Alaikum MR Legend 302.
+
+I need assistance recovering access to my MR Legend 302 website account.
+
+My Username/ID: [Enter your username or ID]
+
+My Registered Email: [Enter your registered email]
+
+Please guide me through the account verification and password reset process.
+
+Thank you.”
+
+The user must manually send the WhatsApp message unless an officially configured WhatsApp Business API supports an approved workflow.
+
+Display the recovery fee as Rs. 300, subject to confirmation by the administrator. Explain that account ownership must be verified before recovery assistance is provided.
+
+Prefer secure email verification and password-reset links wherever available.
+
+6. USER PANEL AND MAIN NAVIGATION
+
+After successful login, open a beautiful personalized dashboard.
+
+Display:
+
+* Profile picture.
+* First name.
+* Username.
+* Numeric user ID.
+* Online/offline status.
+* Current Free or Premium membership.
+* Premium expiry date, if applicable.
+* Daily usage and remaining limits.
+* Notifications.
+* Search User.
+* Sound settings.
+* Logout.
+
+Main navigation sections:
+
+1. Chats
+2. Groups
+3. Status
+4. Profile
+5. Buy Plans
+6. Video Downloader
+
+Use a modern bottom navigation bar on mobile and an elegant sidebar or responsive navigation on desktop.
+
+Keep the interface clean, intuitive, fast, and accessible.
+
+7. PRIVATE CHAT SYSTEM
+
+Build a real, private, real-time messaging system.
+
+Features:
+
+* Search users by exact username or numeric ID.
+* Display matching users with profile pictures and usernames.
+* Click a user to open a private conversation.
+* Send and receive text messages in real time.
+* Display timestamps.
+* Show message delivery and read status when supported.
+* Show online/offline status and last seen according to privacy settings.
+* Display typing indicators.
+* Send images and videos.
+* Support permitted document/file attachments.
+* Allow users to view shared media.
+* Maintain chat history across sessions and devices.
+* Support pagination and efficient loading of older messages.
+* Provide message notifications.
+* Include mute and block controls.
+* Prevent unauthorized access to other people’s private chats.
+* Validate uploads and enforce file-size limits.
+* Add abuse-reporting and spam-prevention controls.
+
+Use real database-backed messaging, not fake conversations or hardcoded users.
+
+Free account messaging limits
+
+Free users can send up to 10 messages per rolling 24-hour period.
+
+Display:
+
+* Messages sent today.
+* Remaining messages.
+* Time until the limit resets.
+
+When the limit is reached, display a professional Premium upgrade dialog.
+
+Administrators must be able to adjust the limit from the Admin Panel.
+
+Premium users receive unlimited messaging, subject to reasonable anti-spam and abuse controls.
+
+8. VOICE AND VIDEO CALLING
+
+Implement real voice and video calling using WebRTC and a secure signaling backend.
+
+Features:
+
+* Start voice call.
+* Start video call.
+* Incoming call screen.
+* Caller profile picture and username.
+* Accept and decline buttons.
+* End call button.
+* Microphone mute/unmute.
+* Camera on/off.
+* Switch cameras on supported devices.
+* Call duration timer.
+* Ringing sound.
+* Missed-call notifications.
+* Connection and reconnection status.
+* Handle microphone/camera permission errors.
+* Support mobile browsers and HTTPS requirements.
+
+Use an appropriate backend for call signaling and TURN/STUN configuration.
+
+Free calling limit
+
+Free users receive one call session of up to one minute according to the configured usage policy.
+
+When the limit is reached:
+
+* End the call automatically.
+* Display a clear message explaining the Free limit.
+* Offer a Premium upgrade.
+* Prevent bypassing the limit by refreshing the page or reconnecting.
+
+Premium users receive unlimited calls under reasonable abuse-prevention rules.
+
+Do not display fake calling interfaces as if calls are actually connected. If required services are not configured, clearly identify the setup requirement.
+
+9. GROUP SYSTEM
+
+Create a complete group feature.
+
+Requirements:
+
+* Create and display groups for authorized users.
+* Show group name, image, description, and member list.
+* Support group messaging and media sharing.
+* Allow users to request to join groups.
+* Send join requests to the Admin Panel for approval when required.
+* Allow authorized administrators to approve or reject requests.
+* Allow the group owner or authorized administrator to manage members.
+* Support group notifications and unread message counts.
+* Provide group settings, mute options, and leave-group controls.
+* Prevent unauthorized users from accessing private groups.
+
+Premium group creation
+
+Only users with an active Premium membership can create their own groups.
+
+Free users can participate in groups when permitted by the group rules and administrator settings.
+
+Premium group owners may configure an optional group audio feature. If the group owner starts a permitted audio stream, members currently in that group may hear it, including Free members.
+
+Implement this using an authorized audio source and a suitable real-time audio delivery system. Show playback controls and provide a clear way to stop playback.
+
+10. STATUS SYSTEM
+
+Build a WhatsApp-style status feature.
+
+Status types:
+
+* Text status.
+* Image status.
+* Video status.
+
+Features:
+
+* Add a status.
+* View other users’ statuses.
+* Display profile pictures and usernames.
+* Show status upload time.
+* Show status viewers to the owner where supported.
+* Play status videos with appropriate controls.
+* Display status progress indicators.
+* Delete one’s own status.
+* Automatically expire each status 24 hours after publication.
+* Enforce access permissions and media upload validation.
+
+Free users
+
+Free users can publish one status per 24-hour period.
+
+Premium users
+
+Active Premium users can publish more than 100 statuses, subject to reasonable storage and abuse limits.
+
+Every status must expire after its own 24-hour lifetime unless the administrator explicitly configures a different policy.
+
+Statuses should be visible to authorized users and should not be publicly indexed.
+
+11. PREMIUM PLANS
+
+Create a beautiful Buy Plans page with two membership options.
+
+Monthly Premium
+
+* Price: Rs. 500, configurable in the Admin Panel.
+* Duration: 30 days from activation.
+* Unlimited text messaging.
+* Unlimited eligible photo and video sharing.
+* Unlimited voice and video calls.
+* Permission to create groups.
+* More than 100 statuses, subject to platform safeguards.
+* Premium sounds and visual effects.
+* Unlimited supported video downloads during the active subscription period.
+* Premium membership badge.
+
+Lifetime Premium
+
+* Membership does not expire automatically.
+* Price must be configurable by the administrator.
+* Includes the applicable Premium features.
+* Remains active until the account is revoked or suspended under platform rules.
+
+Display the price, benefits, duration, and activation instructions clearly.
+
+Monthly membership must expire automatically after 30 days. When it expires, update the account to Free and display a renewal prompt.
+
+Do not rely on a frontend timer alone. Validate subscription status and expiry using the server and database.
+
+12. PREMIUM KEY PURCHASE AND ACTIVATION
+
+Create a Premium Key purchase and activation workflow.
+
+When the user clicks Buy Premium, show:
+
+* Monthly Premium.
+* Lifetime Premium.
+* Plan price.
+* Plan benefits.
+* Contact Admin button.
+* Enter Premium Key field.
+* Activate button.
+
+The Contact Admin button should open:
+
+https://wa.me/923288516325
+
+Prefilled English WhatsApp message:
+
+“Assalam-o-Alaikum MR Legend 302!
+
+I would like to purchase a Premium Activation Key for the MR Legend 302 website.
+
+My Username: [Enter username]
+
+My Registered Email: [Enter registered email]
+
+Selected Plan: [Monthly Premium / Lifetime Premium]
+
+Please share your payment details. After payment confirmation, kindly generate my Premium Activation Key.
+
+Thank you!”
+
+The user must manually send the message and complete payment through the administrator’s verified payment instructions.
+
+Admin key generation
+
+Inside the Admin Panel, authorized administrators can:
+
+* Select a registered account or enter its registered email.
+* Select Monthly or Lifetime Premium.
+* Generate a secure, unique activation key.
+* Copy the key.
+* View key status: unused, activated, expired, or revoked.
+* Revoke a key when necessary.
+
+Generate keys using cryptographically secure server-side randomness.
+
+Each key must:
+
+* Be unique.
+* Be validated on the server.
+* Be single-use.
+* Be linked to the intended account/email and selected plan.
+* Have an auditable activation record.
+* Be protected against brute-force attempts.
+* Never be generated or validated solely in frontend JavaScript.
+
+When the user submits the key, verify the account, key, plan, payment approval status, and key validity on the server.
+
+After successful activation, update the database and display:
+
+“Welcome to MR Legend 302 Premium Version!”
+
+Play a premium activation sound after the user has enabled audio.
+
+Never activate paid membership merely because a key looks correct. Require a valid server-side record.
+
+13. ADMIN PANEL ACCESS
+
+Place a small, elegant lock icon (🔒) at the top of the User Panel.
+
+When clicked, show an Admin Access dialog requesting the Admin Panel Key.
+
+Use the following initial administrator-key identifier/configuration placeholder:
+
+MRLEGEND302ADMIN
+
+IMPORTANT SECURITY REQUIREMENT:
+
+Do not expose the real administrator secret in frontend source code, browser JavaScript, public environment variables, or database documents readable by ordinary users.
+
+Store the actual secret securely in server-side environment variables or a secret manager. Validate administrator access on the server. Use a secure administrator session and role-based access control.
+
+The visible lock icon must not grant administrator privileges by itself.
+
+After successful authentication, open the protected Admin Dashboard.
+
+14. ADMIN DASHBOARD
+
+Create a powerful, polished, responsive Admin Panel.
+
+Dashboard overview:
+
+* Total registered users.
+* Online users.
+* Free users.
+* Monthly Premium users.
+* Lifetime Premium users.
+* Expired subscriptions.
+* Active groups.
+* Pending group requests.
+* Recent activity.
+* Security alerts.
+* Storage and usage overview.
+
+Administrator capabilities:
+
+User Management
+
+* Search users by username, ID, or registered email.
+* View account status and membership.
+* Suspend and reactivate accounts.
+* Block and unblock users.
+* Change user limits.
+* Reset membership status.
+* View reported abuse and moderation history.
+* Do not reveal users’ plaintext passwords.
+
+Premium Management
+
+* Change monthly plan price.
+* Change lifetime plan price.
+* Configure plan duration.
+* Generate and revoke Premium Keys.
+* Assign or remove Premium membership.
+* Review activation history.
+* Configure Free-user daily limits.
+* View expiration dates.
+
+Group Management
+
+* View groups.
+* Review join requests.
+* Approve or reject requests.
+* Moderate group membership.
+* Remove abusive groups when authorized.
+* Configure group audio permissions.
+
+Website Customization
+
+* Change logo and branding assets.
+* Adjust supported colors and visual themes.
+* Enable or disable selected animations.
+* Configure notification and sound effects.
+* Update welcome text.
+* Change Free account limits.
+* Configure plan descriptions and pricing.
+* Configure supported video platforms.
+* Manage permitted audio sources.
+
+Admin Audio Broadcast
+
+Create an audio broadcast panel for authorized administrators.
+
+Features:
+
+* Select eligible Premium recipients.
+* Enter a supported, authorized audio source.
+* Start Audio button.
+* Stop Audio button.
+* Playback status.
+* Recipient eligibility status.
+* Clear broadcast history.
+
+Only active Premium users should receive administrator-only broadcasts.
+
+Do not promise that a TikTok video URL will always work as a direct audio stream. Use a legally authorized uploaded audio file or supported streaming provider. Do not bypass access restrictions, DRM, or platform security.
+
+Admin Security
+
+* Server-side role verification.
+* Secure sessions.
+* Rate limiting.
+* Audit logs for important changes.
+* Protect all administrative APIs.
+* Revoke sessions when access is removed.
+* Require confirmation for destructive actions.
+* Never store passwords in plaintext.
+
+15. SOCIAL MEDIA VIDEO DOWNLOADER
+
+Create a dedicated tool called:
+
+Download All Social Accounts Videos
+
+Show four premium-style platform cards:
+
+1. Instagram / Instagram Reels
+2. YouTube
+3. TikTok
+4. Snapchat
+
+Each card should include:
+
+* Appropriate platform icon or licensed visual asset.
+* Animated hover and tap effects.
+* A short optional “ting ting” sound when selected.
+* URL input.
+* Download button.
+* Loading animation.
+* Preview area when technically supported.
+* Available quality selector.
+* Clear error messages.
+
+Supported quality choices should include:
+
+* 720p.
+* 1080p.
+* 1080p HDR only when the source genuinely supports it.
+
+Only display quality options that are actually available from the source.
+
+Workflow:
+
+1. User selects a platform.
+2. User pastes a video URL.
+3. Backend validates the URL and platform.
+4. If supported and authorized, retrieve the available media information.
+5. Show a preview when possible.
+6. Let the user choose an available quality.
+7. Provide the downloadable file or supported download link.
+
+Download limits
+
+Free accounts have a configurable daily download limit. Start with a limit of two successful downloads per day unless changed by the administrator.
+
+Active Monthly Premium and Lifetime Premium users can access unlimited supported downloads subject to technical, legal, and anti-abuse restrictions.
+
+Track successful downloads on the backend and prevent users from bypassing daily limits by refreshing the page.
+
+Important technical and legal restrictions
+
+Do not claim that every link from every social platform will work.
+
+Respect platform terms, copyright, privacy, access restrictions, and DRM. Do not bypass authentication, paywalls, or technical protections.
+
+Only support downloading content when the source and applicable permissions allow it. Watermark removal must not be promised universally. Offer watermark-free downloads only when permitted and technically supported.
+
+For iPhone, provide a proper file download flow. Explain that saving directly into Photos may require the user to select Share and then Save Video, depending on iOS and browser behavior.
+
+If a platform requires official API credentials or does not permit the requested download workflow, explain the limitation and provide an appropriate supported alternative.
+
+16. SOUND EFFECTS AND VOICE SYSTEM
+
+Create a central sound-management system.
+
+Possible sound effects:
+
+* Welcome voice.
+* Button click.
+* “Ting ting” message-send sound.
+* Incoming message notification.
+* Incoming call ringtone.
+* Call connected sound.
+* Call ended sound.
+* Incorrect username voice.
+* Incorrect password voice.
+* Successful registration sound.
+* Premium activation voice.
+* Premium expiry notification.
+* Admin broadcast notification.
+* Group audio start and stop notifications.
+
+Use original, properly licensed, or generated audio assets.
+
+Requirements:
+
+* Provide a master sound toggle.
+* Allow individual sound categories to be muted.
+* Avoid overlapping sound effects.
+* Stop playback when necessary.
+* Handle missing audio assets gracefully.
+* Do not play unexpected loud sounds.
+* Respect browser autoplay policies and iOS restrictions.
+* Unlock audio after the user’s first interaction.
+* Allow users to disable voice announcements.
+
+Use natural, professional audio rather than repetitive or irritating effects.
+
+17. NOTIFICATIONS
+
+Implement real notifications for:
+
+* Incoming messages.
+* New group messages.
+* Incoming calls.
+* Missed calls.
+* Group join request results.
+* Premium activation.
+* Premium expiration.
+* Download limit reached.
+* Account security events.
+
+Use in-app notifications and optional browser notifications after permission is granted.
+
+Do not request notification permission immediately on page load without explaining the benefit.
+
+18. BACKEND, DATABASE, AND STORAGE
+
+Use a real backend. Prefer Firebase or Supabase if compatible with the project environment.
+
+A suitable implementation may use:
+
+* Authentication provider for registration and login.
+* Database for users, profiles, chats, messages, groups, memberships, statuses, activation keys, notifications, and usage counters.
+* Object storage for profile pictures and approved media uploads.
+* Server-side functions or secure API endpoints for membership activation, usage limits, key validation, admin access, and expiry processing.
+* Real-time subscriptions for messaging and presence.
+* WebRTC with signaling and TURN/STUN configuration for calls.
+
+Create an appropriate database schema for at least:
+
+* users
+* user_profiles
+* conversations
+* conversation_members
+* messages
+* message_attachments
+* groups
+* group_members
+* group_join_requests
+* statuses
+* status_views
+* premium_plans
+* premium_subscriptions
+* activation_keys
+* download_usage
+* message_usage
+* call_usage
+* notifications
+* admin_settings
+* admin_audit_logs
+* reports
+* audio_broadcasts
+
+Use secure database rules and indexes. Enforce access permissions on the server or database security layer.
+
+Never trust a user-supplied plan, role, expiry date, message count, or admin flag.
+
+Create migrations, setup instructions, environment-variable examples, and seed data where appropriate. Seed data must be clearly identified as development-only.
+
+19. SECURITY AND PRIVACY
+
+Implement:
+
+* Secure authentication and sessions.
+* Password hashing through the authentication provider.
+* Server-side validation.
+* Role-based authorization.
+* Rate limiting.
+* File upload validation.
+* Input sanitization.
+* Protection against common injection and cross-site scripting attacks.
+* Secure access policies for chats and files.
+* Private storage for non-public content.
+* Account deletion and logout.
+* Privacy-conscious logging.
+* Audit trails for administrative actions.
+* Protection against repeated activation-key attempts.
+* Server-side enforcement of Free and Premium limits.
+
+Do not expose API secrets, admin credentials, service-role keys, private chat data, or storage credentials in public frontend code.
+
+20. RESPONSIVE MOBILE EXPERIENCE
+
+Make the complete website work beautifully on:
+
+* iPhone Safari.
+* Android browsers.
+* Tablet screens.
+* Desktop browsers.
+
+Requirements:
+
+* Touch-friendly controls.
+* Responsive navigation.
+* No horizontal overflow.
+* Correct handling of the iPhone safe area.
+* Appropriate keyboard behavior in chats and forms.
+* Optimized images.
+* Fast loading.
+* Smooth scrolling.
+* Clear upload and download progress.
+* Accessible labels and contrast.
+
+Create a Progressive Web App setup if supported, including an app icon and install instructions. Do not claim native iOS capabilities that a normal web application cannot provide.
+
+21. PERFORMANCE AND ACCESSIBILITY
+
+* Use optimized components.
+* Lazy-load large media.
+* Paginate chat history and status lists.
+* Compress images where appropriate.
+* Avoid unnecessary animation libraries.
+* Support keyboard navigation.
+* Provide accessible labels.
+* Respect reduced-motion settings.
+* Use loading, empty, success, and error states throughout.
+* Handle network failures gracefully.
+* Avoid unnecessary database reads and writes.
+
+22. REQUIRED SCREENS
+
+Create all of these screens:
+
+1. Animated Welcome Screen.
+2. Registration Screen.
+3. Login Screen.
+4. Forgot Password Screen.
+5. User Dashboard.
+6. Private Chats.
+7. Conversation Screen.
+8. Voice Call Screen.
+9. Video Call Screen.
+10. Groups Screen.
+11. Group Details and Settings.
+12. Group Join Requests.
+13. Status Feed.
+14. Create Status Screen.
+15. Profile Screen.
+16. Buy Plans Screen.
+17. Premium Key Activation Screen.
+18. Social Video Downloader.
+19. Notifications Screen.
+20. Privacy and Sound Settings.
+21. Admin Key Dialog.
+22. Protected Admin Dashboard.
+23. Admin User Management.
+24. Admin Premium Management.
+25. Admin Group Management.
+26. Admin Audio Broadcast.
+27. Admin Website Settings.
+28. Error and Not Found Screens.
+
+Every screen must have functional navigation and appropriate loading, empty, success, and error states.
+
+23. DEVELOPMENT AND IMPLEMENTATION PROCESS
+
+Do not stop after producing a design or a project outline.
+
+First, inspect the available Google AI Studio development environment and choose a compatible architecture.
+
+Then:
+
+1. Create the complete frontend.
+2. Set up the backend integration.
+3. Configure the database schema.
+4. Implement registration and login.
+5. Implement private messaging.
+6. Implement group and status features.
+7. Implement Premium plans and secure activation keys.
+8. Implement the protected Admin Panel.
+9. Implement media upload and permitted video-download integrations.
+10. Implement calling and audio features using supported services.
+11. Add animations, sounds, and responsive layouts.
+12. Add environment-variable examples and setup documentation.
+13. Run available checks and fix errors.
+14. Test important user flows.
+15. Clearly identify integrations that still need credentials or deployment configuration.
+
+If the task is too large for one generation, build it in logical phases while maintaining one coherent project. Preserve existing working code and continue from the current implementation instead of repeatedly replacing everything with a new mockup.
+
+24. ACCEPTANCE TESTS
+
+Before declaring the project complete, verify as many of these as the environment permits:
+
+* A user can register and log in.
+* Duplicate numeric IDs and usernames are rejected.
+* Email is required.
+* Password reset does not expose the existing password.
+* A user can search for another user.
+* Authorized private messages persist in the database.
+* Unauthorized users cannot read private conversations.
+* Free usage limits are enforced on the backend.
+* Premium activation keys are unique, single-use, and securely validated.
+* Monthly membership expires after 30 days.
+* Lifetime membership does not expire automatically.
+* The lock icon opens an administrator authentication dialog.
+* Ordinary users cannot access administrator APIs.
+* Group join requests can be reviewed by an authorized administrator.
+* Statuses expire after 24 hours.
+* Audio controls and browser permissions work appropriately.
+* Unsupported video links display clear error messages.
+* The site works on mobile and desktop layouts.
+* No secrets are exposed in frontend source code.
+
+FINAL INSTRUCTION
+
+Build MR LEGEND 302 as an elegant, premium, secure, fully functional communication platform with a luxury black-and-purple visual identity, impressive animations, high-quality sound effects, a real backend, a real database, a secure Admin Panel, user accounts, private messaging, groups, statuses, voice/video calling, Premium subscriptions, activation keys, and a supported social media video downloader.
+
+Prioritize functional implementation, security, mobile compatibility, and professional visual quality.
+
+Do not falsely label unfinished integrations as complete. If an external service, credential, payment integration, audio provider, calling configuration, or video platform API is required, implement the integration points and explain exactly how to configure them.
+
+Brand every appropriate screen with:
+
+MR LEGEND 302
+
+Footer:
+
+This website created on MR Legend 302

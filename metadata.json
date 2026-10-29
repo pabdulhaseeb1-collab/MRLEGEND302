@@ -1,0 +1,6 @@
+{
+  "name": "MR LEGEND 302",
+  "description": "Luxury full-stack communication and social platform featuring private messaging, WebRTC calling, groups, 24h statuses, premium activation, social video downloader, and administrative control.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
